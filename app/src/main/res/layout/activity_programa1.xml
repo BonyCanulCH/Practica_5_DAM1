@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".programa1"
+    android:background="#FFEB3B"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtabs2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Regresar al Inicio" />
+
+    <TextView
+        android:id="@+id/txtabs1"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="135dp"
+        android:text="@string/textapp1" />
+
+    <TextView
+        android:id="@+id/txtabs3"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtabs1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="184dp"
+        android:text="Año:" />
+
+    <TextView
+        android:id="@+id/txtabs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btncalcA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Resultado" />
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtabs3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:ems="13"
+        android:hint="Teclea el Año que deseas saber"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btncalcA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editA"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="142dp"
+        android:onClick="calcanio"
+        android:text="@string/btn1mult" />
+
+</RelativeLayout>
