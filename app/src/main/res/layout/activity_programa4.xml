@@ -46,7 +46,8 @@
         android:layout_marginStart="114dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="113dp"
-        android:text="@string/textapp4" />
+        android:text="@string/textapp4"
+        android:textColor="#040404" />
 
     <EditText
         android:id="@+id/editTN"
@@ -110,6 +111,7 @@
         android:layout_below="@id/btncalc2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="Aquí va el resultado" />
+        android:textColor="#082BEF"
+        android:text="Resultado del Promedio"/>
 
 </RelativeLayout>

@@ -4,7 +4,7 @@
     <string name="btn2">Programa 2</string>
     <string name="btn3">Programa 3</string>
     <string name="btn4">Programa 4</string>
-    <string name="textmult">Ingrese un Número (Tipo Entero)</string>
+    <string name="textmult">Tablas de Multiplicar</string>
     <string name="btn1mult">Calcular</string>
     <string name="resultabla"></string>
     <string name="textapp4">Calculadora de Promedios</string>

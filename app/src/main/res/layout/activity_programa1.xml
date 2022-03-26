@@ -28,6 +28,7 @@
         android:layout_marginStart="134dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="135dp"
+        android:textColor="#000000"
         android:text="@string/textapp1" />
 
     <TextView
@@ -41,6 +42,7 @@
         android:layout_marginStart="189dp"
         android:layout_marginTop="66dp"
         android:layout_marginEnd="184dp"
+        android:textColor="#F11707"
         android:text="Año:" />
 
     <TextView
@@ -50,7 +52,8 @@
         android:layout_below="@id/btncalcA"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="Resultado" />
+        android:text="Resultado"
+        android:textColor="#EA1960" />
 
     <EditText
         android:id="@+id/editA"
